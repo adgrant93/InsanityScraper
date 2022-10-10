@@ -20,16 +20,20 @@ Installing pip (if you don't have it. if on linux you probably do.):
 https://www.geeksforgeeks.org/how-to-install-pip-in-macos/
 
 Selenium: (From terminal/cmd) pip install selenium
+
 Chrome Web Driver: https://chromedriver.chromium.org/downloads
+
 Note: Download the right one for your version of Chrome. To check chrome version do the following:
   Open Chrome > 3 dots/hamburger icon > Help > About
+
 Chrome: https://www.google.com/chrome/
+
 Chromium (untested): https://www.chromium.org/getting-involved/download-chromium/
 
 -----
 Use:
 
-Web driver path is hard coded it doesn't take input yet. You can modify line 22 'executable_path' variable with your absolute path, this is just me on my mac. You would use "C:\\Folder\\webdriver.exe" for windows for example. This person gives a great example (where I got a lot of info on selenium from).
+Web driver path is hard coded it doesn't take input yet. You can modify line 21 'executable_path' variable with your absolute path, this is just me on my mac. You would use "C:\\Folder\\webdriver.exe" for windows for example. This person gives a great example (where I got a lot of info on selenium from).
  
 https://medium.com/jaanvi/headless-browser-in-python-9a1dcc2b608b
 
