@@ -1,5 +1,7 @@
 # InsanityScraper
-Scraper to download all the MsInsanity Wallpapers. 
+Scraper to download photos from vk.com.
+
+(Originally designed for all the MsInsanity Wallpapers) 
 
 -----
 MsInsanity:
