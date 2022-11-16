@@ -46,7 +46,7 @@ When you find an artist you like, you need to click on the first picture of thei
 https://vk.com/msinsanity?z=photo-72806334_457241185%2Falbum-72806334_00%2Frev
 
 Removing Duplicates:
-Unfortunately, duplicate removal is not implemented yet. If you can use the following commands in the directory to remove dupes For MacOS and Linux.
+Unfortunately, duplicate removal is not implemented yet. If you can use the following commands in the directory to remove dupes For MacOS, Linux, and Windows.
 
 MacOS/Linux:
 ls | grep '(' | xargs rm
