@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import timeit
 import wget
+import time
 
 def page1():
 	myURL = input("Please enter the link and press ENTER. \n")
@@ -18,12 +19,14 @@ def page1():
 	chrome_options.add_argument("--window-size=1920x1080")
 
 	#Initialize driver
-	driver = webdriver.Chrome(chrome_options=chrome_options, executable_path="/Users/ryno/chromedriver")
+	driver = webdriver.Chrome(chrome_options=chrome_options, executable_path="C:\\Users\\RYNO\\Documents\\Insanity\\chromedriver.exe")
 
 	#Go to vk.com and get element. Print for fun/testing
 	driver.get(myURL)
-
+	
 	#Dynamically pull page information
+	wait = WebDriverWait(driver, 10)
+	wait.until(expected_conditions.presence_of_element_located((By.CLASS_NAME, 'pv_counter')))
 	counter = driver.find_element(By.CLASS_NAME, 'pv_counter').text
 	counter = counter.split(' ')
 	lastImgCount = counter[2]
@@ -49,11 +52,17 @@ def page1():
 	#Prints the Start and End Time to Console
 	print('Time: ', stop - start)
 
-myAnswer = input("Is this the first page? y/n \n")
+def main():
+	myAnswer = input("Is this the first page? y/n \n")
 
-if myAnswer == 'y' or myAnswer == 'Y':
-	page1()
-elif myAnswer == 'n' or myAnswer == 'N':
-	print("More to come.....")
-else:
-	print("Disaster......")
+	if myAnswer == 'y' or myAnswer == 'Y':
+		page1()
+	elif myAnswer == 'n' or myAnswer == 'N':
+		print("More to come.....")
+	else:
+		print("Disaster......")
+
+
+if __name__ == "__main__":
+	main()
+

@@ -21,7 +21,7 @@ Why?
 -----
 Prerequisites:
 
-You need pip installed, Selenium installed, Chrome (bleh) and chrome web driver for your version of chrome. Will probably work with chromium too.
+You need pip, wget, and Selenium modules installed. You need Chrome (bleh) and chrome web driver for your version of chrome. Will probably work with chromium too.
 
 Installing pip (if you don't have it. if on linux you probably do.):
 
@@ -40,7 +40,7 @@ Chromium (untested): https://www.chromium.org/getting-involved/download-chromium
 
 -----
 Use:
-Web driver path is hard coded it doesn't take input yet. You can modify line 21 'executable_path' variable with your absolute path, this is just me on my mac. You would use "C:\\Folder\\webdriver.exe" for windows for example. This person gives a great example (where I got a lot of info on selenium from).
+Web driver path is hard coded it doesn't take input yet. You can modify line 21 'executable_path' variable with your absolute path, this is just me on my mac. You would use "C:\\Folder\\chromedriver.exe" for windows for example. This person gives a great example (where I got a lot of info on selenium from).
  
 https://medium.com/jaanvi/headless-browser-in-python-9a1dcc2b608b
 
