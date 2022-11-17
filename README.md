@@ -73,6 +73,7 @@ To-do:
     Checkbox for headless or no headless (headless by default)
     Option to autoremove duplicates.
     Option for first page or specified page.
+  REALLY Wanna make it multithreaded but could be a bear to implement
   MAYBE restructure code with objects vs. one long function........MAYBE lol
 
 Update 11/17:
