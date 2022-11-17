@@ -4,9 +4,15 @@ Scraper to download photos from vk.com.
 (Originally designed for all the MsInsanity Wallpapers) 
 
 -----
-MsInsanity:
+MsInsanity Links:
 
-https://twitter.com/msinsanity_bot
+Twitter: https://twitter.com/madskillz_arts
+
+Facebook: https://www.facebook.com/animeirl/
+
+Instagram: https://www.instagram.com/madskillz_arts/
+
+Patreon: https://www.patreon.com/ms_arts
 
 -----
 Why?
