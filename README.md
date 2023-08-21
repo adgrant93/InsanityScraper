@@ -63,7 +63,7 @@ powershell -c "Remove-Item * -Include '*(*'"
 -----
 Please read below for updates on bugs and whatnot.
 
-To-do:
+To-do/Maybe List (If I have the time but it accomplished my task ;) ):
   Add information on what the dialogue wants you to choose in title bar (might not be needed if I make the program GUI centric but would not hurt)
   More error handling i.e., if you lose your connection, you should have the option to just continue the program. Can be done with try except, while loop, and if/else statement.
   Need to add option to start from whatever page number your want....
